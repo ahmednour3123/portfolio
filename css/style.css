@@ -509,7 +509,7 @@ form textarea:focus {
 @media (min-width:370px) and (max-width:830px){
 	.home {
 	
-		min-height: 110vh;}
+		min-height: 100vh;}
 }
 @media (max-width: 370px) {
 	.home {
