@@ -115,13 +115,13 @@ section {
 }
 
 .home-text h3 {
-	font-size: 3rem;
+	font-size: 1.5rem;
 	font-weight: 600;
-	margin-bottom: 1.6rem;
+	margin-bottom: 3rem;
 }
 
 .btn {
-	
+
 	padding: 14px 40px;
 	background: var(--main-color);
 	font-size: var(--paragraph-font);
@@ -487,6 +487,11 @@ form textarea:focus {
 		
 		margin-bottom: 1rem;
 	}
+	
+	.btn {
+		display: inline-block;
+	}
+
 	.navbar {
 		position: absolute;
 		top: -600px;
