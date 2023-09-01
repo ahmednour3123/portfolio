@@ -100,7 +100,7 @@ section {
 	
 	font-size: var(--heading-font);
 	font-weight: bold;
-	
+	line-height: 1.1;
 	letter-spacing: 2px;
 }
 
