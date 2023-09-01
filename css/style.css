@@ -457,8 +457,8 @@ form textarea:focus {
 	}
 
 	.home {
-		height: 85vh;
-		overflow: hidden;
+		height: 115vh;
+		overflow: auto;
 	}
 
 	.about {
@@ -506,15 +506,15 @@ form textarea:focus {
 		top: 100%;
 	}
 }
-@media (min-width:370px) and (max-width:830px){
+@media (min-width: 415px) and (max-width: 667px){
 	.home {
-	
-		min-height: 100vh;}
+		
+		min-height: 130vh;}
 }
 @media (max-width: 370px) {
 	.home {
 		
-		min-height: 140vh;}
+		min-height: 100vh;}
 	.portfolio-content {
 		display: block;
 	}
