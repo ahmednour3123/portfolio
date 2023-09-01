@@ -38,7 +38,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 18px 15%;
+	padding: 22px 16%;
 	border-bottom: 1px solid transparent;
 	transition: all 0.5s ease-in-out;
 }
@@ -100,7 +100,7 @@ section {
 	margin: 20px 0;
 	font-size: var(--heading-font);
 	font-weight: bold;
-	line-height: 1.1;
+	line-height: 1;
 	letter-spacing: 2px;
 }
 
@@ -139,7 +139,7 @@ section {
 	border: 2px solid var(--main-color);
 }
 
-header.sticky {
+header.sticky { 
 	padding: 15px 2%;
 	background: var(--bg-color);
 	border-bottom: 1px solid #0e1630;
@@ -506,7 +506,15 @@ form textarea:focus {
 		top: 100%;
 	}
 }
+@media (min-width:370px) and (max-width:830px){
+	.home {
+		margin-top: 6.5%;
+		min-height: 120vh;}
+}
 @media (max-width: 370px) {
+	.home {
+		
+		min-height: 140vh;}
 	.portfolio-content {
 		display: block;
 	}
