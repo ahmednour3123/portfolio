@@ -508,7 +508,7 @@ form textarea:focus {
 }
 @media (min-width:370px) and (max-width:830px){
 	.home {
-		margin-top: 3.5%;
+	
 		min-height: 110vh;}
 }
 @media (max-width: 370px) {
