@@ -140,7 +140,6 @@ section {
 }
 
 header.sticky { 
-	padding: 20px 3%;
 	background: var(--bg-color);
 	border-bottom: 1px solid #0e1630;
 }
