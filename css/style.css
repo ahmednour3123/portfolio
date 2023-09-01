@@ -38,7 +38,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 22px 16%;
+	padding: 18px 15%;
 	border-bottom: 1px solid transparent;
 	transition: all 0.5s ease-in-out;
 }
