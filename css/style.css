@@ -139,7 +139,7 @@ section {
 	border: 2px solid var(--main-color);
 }
 
-header.sticky { 
+header .sticky { 
 	background: var(--bg-color);
 	border-bottom: 1px solid #0e1630;
 }
