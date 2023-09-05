@@ -286,7 +286,9 @@ header.sticky {
 	font-weight: 600;
 	letter-spacing: 1px;
 }
-
+.port p{
+	padding-bottom: 10px;
+}
 .main-box {
 	display: flex;
 	align-items: center;
