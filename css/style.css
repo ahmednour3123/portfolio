@@ -474,7 +474,7 @@ form textarea:focus {
 	.contact {
 		grid-template-columns: 1fr;
 	}
-		.ahmed{
+	.ahmed {
 		display: none;
 	}
 }
@@ -518,7 +518,7 @@ form textarea:focus {
 	.navbar.active {
 		top: 100%;
 	}
-		.ahmed{
+	.ahmed {
 		display: none;
 	}
 }
@@ -530,7 +530,7 @@ form textarea:focus {
 	.port{
 		margin-bottom: 20px;
 	}
-		.ahmed{
+	.ahmed {
 		display: none;
 	}
 }
