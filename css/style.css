@@ -474,6 +474,9 @@ form textarea:focus {
 	.contact {
 		grid-template-columns: 1fr;
 	}
+		.ahmed{
+		display: none;
+	}
 }
 
 @media (max-width: 830px) {
