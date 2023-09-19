@@ -86,11 +86,11 @@ section {
 }
 
 .home {
-	min-height: 100vh;
-	width: 100%;
+       min-height: 100vh;
+	min-width: 100vw;
 	position: relative;
-   
- 
+       background: #070818d7 url(../images/header.jpg) no-repeat center/cover;
+    background-blend-mode: multiply;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
@@ -460,7 +460,7 @@ form textarea:focus {
 	}
   .home {
 		min-height: 100vh;
-		overflow: hidden;
+	min-width: 100vw;
 	}
 	
 
@@ -489,7 +489,7 @@ form textarea:focus {
 	}
 	  .home {
 		min-height: 100vh;
-		overflow: hidden;
+	min-width: 100vw;
 	}
 	.home-text h3 {
 		
