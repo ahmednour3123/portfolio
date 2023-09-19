@@ -474,9 +474,7 @@ form textarea:focus {
 	.contact {
 		grid-template-columns: 1fr;
 	}
-	.ahmed {
-		display: none;
-	}
+
 }
 
 @media (max-width: 830px) {
@@ -518,9 +516,7 @@ form textarea:focus {
 	.navbar.active {
 		top: 100%;
 	}
-	.ahmed {
-		display: none;
-	}
+
 }
 @media (max-width: 370px) {
 	
@@ -530,7 +526,5 @@ form textarea:focus {
 	.port{
 		margin-bottom: 20px;
 	}
-	.ahmed {
-		display: none;
-	}
+	
 }
