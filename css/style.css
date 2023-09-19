@@ -86,10 +86,10 @@ section {
 }
 
 .home {
-       min-height: 100vh;
-	min-width: 100vw;
+	min-height: 100vh;
+	width: 100%;
 	position: relative;
-       background: #070818d7 url(../images/header.jpg) no-repeat center/cover;
+    background: #070818d7 url(../images/header.jpg) no-repeat center/cover;
     background-blend-mode: multiply;
 	display: flex;
 	align-items: center;
@@ -438,7 +438,6 @@ form textarea:focus {
 	header {
 		padding: 16px 3%;
 	}
-	
 
 	header .sticky {
 		padding: 20px 3%;
@@ -458,11 +457,11 @@ form textarea:focus {
 	section {
 		padding: 70px 3% 60px;
 	}
-  .home {
-		min-height: 100vh;
-	min-width: 100vw;
+
+	.home {
+		height: 85vh;
+		overflow: hidden;
 	}
-	
 
 	.about {
 		grid-template-columns: 1fr;
@@ -475,7 +474,9 @@ form textarea:focus {
 	.contact {
 		grid-template-columns: 1fr;
 	}
-
+	.ahmed {
+		display: none;
+	}
 }
 
 @media (max-width: 830px) {
@@ -486,10 +487,6 @@ form textarea:focus {
 	}
 	#menu-icon {
 		display: block;
-	}
-	  .home {
-		min-height: 100vh;
-	min-width: 100vw;
 	}
 	.home-text h3 {
 		
@@ -521,7 +518,9 @@ form textarea:focus {
 	.navbar.active {
 		top: 100%;
 	}
-
+	.ahmed {
+		display: none;
+	}
 }
 @media (max-width: 370px) {
 	
@@ -531,5 +530,7 @@ form textarea:focus {
 	.port{
 		margin-bottom: 20px;
 	}
-	
+	.ahmed {
+		display: none;
+	}
 }
