@@ -458,10 +458,7 @@ form textarea:focus {
 		padding: 70px 3% 60px;
 	}
 
-	.home {
-		height: 85vh;
-		overflow: hidden;
-	}
+	
 
 	.about {
 		grid-template-columns: 1fr;
