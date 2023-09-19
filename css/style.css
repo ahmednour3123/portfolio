@@ -438,6 +438,7 @@ form textarea:focus {
 	header {
 		padding: 16px 3%;
 	}
+	
 
 	header .sticky {
 		padding: 20px 3%;
@@ -457,8 +458,8 @@ form textarea:focus {
 	section {
 		padding: 70px 3% 60px;
 	}
-.home {
-		height: 100vh;
+  .home {
+		min-height: 100vh;
 		overflow: hidden;
 	}
 	
@@ -485,6 +486,10 @@ form textarea:focus {
 	}
 	#menu-icon {
 		display: block;
+	}
+	  .home {
+		min-height: 100vh;
+		overflow: hidden;
 	}
 	.home-text h3 {
 		
