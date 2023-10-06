@@ -346,7 +346,7 @@ header.sticky {
 	border-radius: 0.5rem;
 	background: var(--other-color);
 	color: var(--main-color);
-	display: inline-block;
+	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 18px;
