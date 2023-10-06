@@ -341,8 +341,8 @@ header.sticky {
 
 
 .social-icons i {
-	height: 45px;
-	width: 45px;
+	height: 42px;
+	width: 42px;
 	border-radius: 0.5rem;
 	background: var(--other-color);
 	color: var(--main-color);
