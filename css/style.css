@@ -288,6 +288,7 @@ header.sticky {
 }
 .port p {
 	padding-bottom: 10px;
+	font-size: 15px;
 }
 .main-box {
 	display: flex;
