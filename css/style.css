@@ -428,28 +428,7 @@ form textarea:focus {
 	color: var(--main-color);
 }
 
-/* Scroll bar */
-::-webkit-scrollbar {
-  width: 1rem;
- }
- 
-::-webkit-scrollbar-track {
-  border: 2px solid #181c30;
-  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
-  
-  }
- 
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(90deg,#ff0000 ,#232e3a );
-  border-radius: .7rem;
-}
- 
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(270deg,#ff0000, #232e3a );
-}
- 
-/* for Firefox */
- html {scrollbar-color: #eb0b0b #3d4a59;} 
+
 
 /* Responsive */
 
